@@ -1,0 +1,13 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">24sp</dimen>
+    <dimen name="detail_subtitle_text_size">14sp</dimen>
+    <dimen name="detail_toolbar_top_margin">0dp</dimen>
+    <dimen name="detail_body_text_size">16sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.0</item>
+
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+</resources>

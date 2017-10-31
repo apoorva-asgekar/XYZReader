@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="card_heading_text_size">16sp</dimen>
+    <dimen name="card_sub_heading_text_size">12sp</dimen>
+
+    <dimen name="card_text_padding_side">8dp</dimen>
+    <dimen name="card_text_padding_top">8dp</dimen>
+    <dimen name="card_text_padding_bottom">4dp</dimen>
+
+    <!-- detail -->
+    <dimen name="detail_photo_height">224dp</dimen>
+    <dimen name="detail_up_margin_top">16dp</dimen>
+    <dimen name="detail_meta_bar_left_margin">56dp</dimen>
+</resources>
