@@ -68,6 +68,9 @@ public class ArticleDetailActivity extends ActionBarActivity
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             postponeEnterTransition();
             if(mCallback == null) {
+                // The callback functionality has been created with help from the following sample app
+                // on Github - https://github.com/alexjlockwood/adp-activity-transitions/tree/master/app
+                //Original Source Code attribution to author https://github.com/alexjlockwood
                 mCallback = new SharedElementCallback() {
                     @Override
                     public void onMapSharedElements(List<String> names, Map<String, View> sharedElements) {

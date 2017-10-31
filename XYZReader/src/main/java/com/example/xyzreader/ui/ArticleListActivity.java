@@ -75,6 +75,9 @@ public class ArticleListActivity extends ActionBarActivity implements
         setContentView(R.layout.activity_article_list);
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            // The callback functionality has been created with help from the following sample app
+            // on Github - https://github.com/alexjlockwood/adp-activity-transitions/tree/master/app
+            //Original Source Code attribution to author https://github.com/alexjlockwood
             mCallback = new SharedElementCallback() {
                 @Override
                 public void onMapSharedElements(List<String> names, Map<String, View> sharedElements) {
