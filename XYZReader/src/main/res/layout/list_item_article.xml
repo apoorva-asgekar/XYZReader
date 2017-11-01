@@ -21,7 +21,7 @@
             android:id="@+id/thumbnail"
             android:transitionName="@string/transition_name"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:background="@color/photo_placeholder"
             android:scaleType="centerCrop" />
 
